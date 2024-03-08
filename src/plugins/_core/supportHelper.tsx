@@ -110,6 +110,7 @@ ${makeCodeblock(enabledPlugins.join(", "))}
 
     flux: {
         async CHANNEL_SELECT({ channelId }) {
+            /*
             if (channelId !== SUPPORT_CHANNEL_ID) return;
 
             const selfId = UserStore.getCurrentUser()?.id;
@@ -167,6 +168,7 @@ ${makeCodeblock(enabledPlugins.join(", "))}
                     onCloseCallback: () => setTimeout(() => NavigationRouter.back(), 50)
                 });
             }
+            */
         }
     },
 
